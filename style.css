@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    font-size: 24px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 5rem;
+}
+.option {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.option:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    opacity: 0.7;
+}
+
+.option img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.scoring {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+    height: 20vh;
+    font-size: 30px;
+}
+
+.sc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.announcement {
+    margin: 30px 0px 20px 0px;
+    text-align: center;
+    font-size: 28px;
+    width: 100%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+.resetgame {
+    display: flex;
+    justify-content: center;
+}
+
+.resetgame button {
+    height: 2rem;
+    width: 7rem;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.resetgame button:hover {
+    cursor: pointer;
+    background-color: rgb(39, 39, 39);
+}
